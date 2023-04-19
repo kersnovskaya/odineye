@@ -1,5 +1,4 @@
 import requests
-import telebot
 
 def send_to_telegram(text, token, chat):
     url = "https://api.telegram.org/bot" + token + "/sendMessage"  # 1388568494:AAFZCASLFx64WZnpQLyqmBjht66Y3LU9xEI 5156460237:AAEt1if6meaEGae-8lVWp20Egj4TnBdDdEs
